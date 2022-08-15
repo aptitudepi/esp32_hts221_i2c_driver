@@ -28,7 +28,7 @@ All I2C registers are documented in hts221_i2c.h
 
 ## Requirements
  1. ESP32 (I specifically tested the ESP32-C3 board. For other ESP32 boards, YMMV)
- 2. [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/index.html) (I used the current master. YMMV on older versions)
+ 2. [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/index.html) with your favorite code editor/IDE (I used the current master. YMMV on older versions)
  3. Raspberry Pi Sense-HAT (YMMV on other boards using the HTS221)
  4. No-solder breadboard (Optional, but highly useful)
  5. Male-to-Male Wires
