@@ -1,0 +1,7 @@
+{
+    "idf.flashType": "JTAG",
+    "idf.adapterTargetName": "esp32c3",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-builtin.cfg"
+    ]
+}
