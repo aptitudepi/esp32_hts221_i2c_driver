@@ -36,7 +36,7 @@ All I2C registers are documented in hts221_i2c.h
 The following snippets assume that you have already  setup the ESP-IDF, opened a terminal/command prompt that has the ESP-IDF environment variables set, and configured the project to use the ESP32-C3. `<ESP32 PORT>` is a device that looks like `/dev/ttyUSB0` in Linux, `/dev/cu.0` in MacOS, and `COM0` in Windows.
 ### To build the project <ins>without</ins> flashing the ESP32:
     $ idf.py build
-### To build the project <ins>and</ins> flash the ESP32 <ins>without</ins> monitoring the ESP32's serial output:
+### To build the project <ins>and</ins> flash the ESP32:
     $ idf.py -p <ESP32 PORT> flash
 To see the serial output on the board at a later point:
 
